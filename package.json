@@ -1,0 +1,22 @@
+{
+  "name": "10-team-profile_generator",
+  "version": "1.0.0",
+  "description": "HW 10 Team Profile Generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/streamingTurtles/10-Team-Profile-Generator.git"
+  },
+  "author": "PAC, Streaming Turtles, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/streamingTurtles/10-Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/streamingTurtles/10-Team-Profile-Generator#readme"
+}
