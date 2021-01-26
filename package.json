@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/streamingTurtles/10-Team-Profile-Generator/issues"
   },
-  "homepage": "https://github.com/streamingTurtles/10-Team-Profile-Generator#readme"
+  "homepage": "https://github.com/streamingTurtles/10-Team-Profile-Generator#readme",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "require": "^2.4.20"
+  }
 }
