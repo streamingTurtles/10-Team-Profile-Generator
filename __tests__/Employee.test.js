@@ -1,6 +1,6 @@
 
-
-// The purpose of this test file is to test the Employee-Class.js file using jest.
+// Employee-Class.js Testing code:
+// The purpose of this test file is to test the "Employee-Class.js" file using jest.
 // Test will check the following:
 // Test that the Employee Class can Instatiate another object.
 // Test that the new object can set a name, id & eMail via its constructor.
