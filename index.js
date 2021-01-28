@@ -91,7 +91,7 @@ function initAgain(){
         inquirer.prompt(getTeamMember()).then(function({addTeamMember, name, id, eMail}){
             let setNewEmployee = new Employee(name, id, eMail); 
             employee_array.push(setNewEmployee);
-            console.log("added to employee_array now has: ", setNewEmployee)  // for testing
+            // console.log("added to employee_array now has: ", setNewEmployee) ---  // for testing
             let getMoreInfo = "";
             if (addTeamMember === "Engineer"){
                 getMoreInfo = "gitHub_UserName";
@@ -125,31 +125,31 @@ function initAgain(){
                     // addedMemberEngineer = new Engineer(name, id,eMail, getMoreInfo); // testing
                     team_member_array.push(addedMember);                    
                     engineer_array.push(addedMemberEngineer);//
-                    console.log("added to team_member_array & engineer_array now has: ", addedMember)  // for testing                    
+                    // console.log("added to team_member_array & engineer_array now has: ", addedMember) ---  // for testing                    
                 }
                 if (addTeamMember === "Intern"){
                     addedMember = new Intern(name, id, eMail, getMoreInfo);  // don't uncomment, throws geRole of undefined at line 64 in html-helper.js file
                     // addedMemberIntern = new Intern(name, id,eMail, getMoreInfo); // testing
                     team_member_array.push(addedMember);
                     intern_array.push(addedMemberIntern);//
-                    console.log("added to team_member_array & intern_array now has: ", addedMember)  // for testing 
+                    // console.log("added to team_member_array & intern_array now has: ", addedMember) ---  // for testing 
                 }
                 employee_array.push(addedMember);
                 // call html render function creation here
-                console.log("call html render function creation here")
+                // console.log("call html render function creation here") ---
             }).then(() => {
                 if (added === "yes"){                                 
                     // call again
-                    console.log("YES, add_another_member ", added)
+                    // console.log("YES, add_another_member ", added) ---
                     initAgain();                             
                 } 
                 if (added === "no"){
                     // call html render function to close
-                    console.log("NO, add_another_member - from initAgain ", added)
+                    // console.log("NO, add_another_member - from initAgain ", added) ---
                     // let makeHTML = generateTeam(team_member_array);
                     let data = html_output(team_member_array);
-                    console.log("test at here");
-                    fs.writeFile("./dist/index-team.html", data, function(err){
+                    // console.log("test at here"); ---
+                    fs.writeFile("./dist/index2-team.html", data, function(err){
                         if (err){
                             console.log(err); 
                         }
@@ -176,9 +176,9 @@ function init(){
                 employee_array.push(setNewEmployee);
                 team_member_array.push(setNewManager);
                 manager_array.push(setNewManager);
-                console.log("added to employee_array now has: ", setNewEmployee)  // for testing
-                console.log("added to team_member_array now has: ", setNewManager)  // for testing
-                console.log("added to manager_array now has: ", setNewManager)  // for testing
+                // console.log("added to employee_array now has: ", setNewEmployee) ---  // for testing
+                // console.log("added to team_member_array now has: ", setNewManager) ---  // for testing
+                // console.log("added to manager_array now has: ", setNewManager) ---  // for testing
                 // console.log("employee_array has: ", setNewEmployee.name)  // for testing
                 // console.log("employee_array has: ", setNewEmployee.id) // for testing
                 // console.log("employee_array has: ", setNewManager.officeNumber) // for testing
@@ -186,7 +186,7 @@ function init(){
                 inquirer.prompt(getTeamMember()).then(function({addTeamMember, name, id, eMail}){
                     let setNewEmployee = new Employee(name, id, eMail); 
                     employee_array.push(setNewEmployee);
-                    console.log("added to employee_array now has: ", setNewEmployee)  // for testing
+                    // console.log("added to employee_array now has: ", setNewEmployee) ---  // for testing
                     let getMoreInfo = "";
                     if (addTeamMember === "Engineer"){
                         getMoreInfo = "gitHub_UserName";
@@ -214,18 +214,18 @@ function init(){
                             addedMemberEngineer = new Engineer(name, id, eMail, getMoreInfo);
                             team_member_array.push(addedMember);
                             engineer_array.push(addedMemberEngineer);
-                            console.log("added to engineer_array & engineer_array now has: ", addedMember)  // for testing  
+                            // console.log("added to engineer_array & engineer_array now has: ", addedMember) ---  // for testing  
                         }
                         if (addTeamMember === "Intern"){
                             addedMember = new Intern(name, id, eMail, getMoreInfo);
                             addedMemberIntern = new Intern(name, id, eMail, getMoreInfo);
                             team_member_array.push(addedMember);
                             intern_array.push(addedMember);
-                            console.log("added to intern_array & engineer_array now has: ", addedMember)  // for testing                             
+                            // console.log("added to intern_array & engineer_array now has: ", addedMember) ---  // for testing                             
                         }
                         employee_array.push(addedMember);
                         // call html render function creation here
-                        console.log("call html render function creation here")
+                        // console.log("call html render function creation here") ---
                     }).then(() => {
                         if (added === "yes"){                                 
                             // call again
