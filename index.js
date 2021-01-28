@@ -95,15 +95,15 @@ function initAgain(){
             let getMoreInfo = "";
             if (addTeamMember === "Engineer"){
                 getMoreInfo = "gitHub_UserName";
-                setNewEmployee = new Engineer(name, id, eMail, getMoreInfo);//
-                team_member_array.push(setNewEmployee); //                   
-                engineer_array.push(setNewEmployee);//
+                // setNewEmployee = new Engineer(name, id, eMail, getMoreInfo);    // duplicate testing code - commit out
+                // team_member_array.push(setNewEmployee);   // duplicate testing code - commit out                
+                // engineer_array.push(setNewEmployee);  // duplicate testing code - commit out
             }
             else { (addTeamMember === "Intern")
                 getMoreInfo = "schoolAttended";
-                setNewEmployee = new Intern(name, id, eMail, getMoreInfo);//
-                team_member_array.push(setNewEmployee);//                    
-                intern_array.push(setNewEmployee);//
+                // setNewEmployee = new Intern(name, id, eMail, getMoreInfo);    // duplicate testing code - commit out
+                // team_member_array.push(setNewEmployee);  // duplicate testing code - commit out                    
+                // intern_array.push(setNewEmployee);  // duplicate testing code - commit out
             }
             inquirer.prompt([{
                 message: `Enter team members ${getMoreInfo}`,
@@ -121,15 +121,15 @@ function initAgain(){
                 added = addAnother;
                 // console.log("1st: did you select to add another team member? ", added);
                 if (addTeamMember === "Engineer"){
-                    addedMember = new Engineer(name, id, eMail, getMoreInfo);
-                    addedMemberEngineer = new Engineer(name, id,eMail, getMoreInfo);//
+                    addedMember = new Engineer(name, id, eMail, getMoreInfo); // don't uncomment, throws geRole of undefined at line 64 in html-helper.js file 
+                    // addedMemberEngineer = new Engineer(name, id,eMail, getMoreInfo); // testing
                     team_member_array.push(addedMember);                    
                     engineer_array.push(addedMemberEngineer);//
                     console.log("added to team_member_array & engineer_array now has: ", addedMember)  // for testing                    
                 }
                 if (addTeamMember === "Intern"){
-                    addedMember = new Intern(name, id, eMail, getMoreInfo);
-                    addedMemberIntern = new Intern(name, id,eMail, getMoreInfo);//
+                    addedMember = new Intern(name, id, eMail, getMoreInfo);  // don't uncomment, throws geRole of undefined at line 64 in html-helper.js file
+                    // addedMemberIntern = new Intern(name, id,eMail, getMoreInfo); // testing
                     team_member_array.push(addedMember);
                     intern_array.push(addedMemberIntern);//
                     console.log("added to team_member_array & intern_array now has: ", addedMember)  // for testing 
