@@ -88,6 +88,6 @@
   - pcardillo@streamingTurtles.com  
 
   &nbsp;
-- - -
+
 - - -
 Peter Cardillo, Columbia Engineering Fullstack Bootcamp, 2020-2021  
