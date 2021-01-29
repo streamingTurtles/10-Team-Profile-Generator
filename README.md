@@ -69,12 +69,12 @@
   &nbsp;
   - - -
   ## gitHub Repo Link:
-  - https://github.com/streamingTurtles/10-Team-Profile-Generator
+  - [https://github.com/streamingTurtles/10-Team-Profile-Generator](https://github.com/streamingTurtles/10-Team-Profile-Generator)
 
   &nbsp;
   - - -
   ## Github Live Web Link:
-  - https://streamingturtles.github.io/10-Team-Profile-Generator/
+  - [https://streamingturtles.github.io/10-Team-Profile-Generator/](https://streamingturtles.github.io/10-Team-Profile-Generator/)
 
   &nbsp;
   - - -
