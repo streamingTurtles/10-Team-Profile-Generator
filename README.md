@@ -12,6 +12,29 @@
   - [Github Live Web Link](#github-live-web-link)
   - [Github Information](#github-information)
   - [my-email-for-questions-and-information](#my-email-for-questions-and-information)
+  - [Video Demo of this App running](https://drive.google.com/file/d/1SH0pPhN4_EQtXqROm5jkCi3u9nQb4zDF/view)
+  - [Video Demo of Jest Class Tests]()
+
+
+  &nbsp;
+  - - -
+  ## Screenshot of App running in the terminal:
+  ![Screenshot](./Assests/appDemo-Screen-Shot.png)
+
+  &nbsp;
+  - - -
+  ## Screenshot of Jest Class Testing:
+  ![Screenshot](./Assests/Jest-test-Screen-Shot-1.png)
+
+  &nbsp;
+  - - -
+  ## Screenshot of Jest Class Testing:
+  ![Screenshot](./Assests/Jest-test-Screen-Shot-1.png)
+
+
+
+
+
 
   &nbsp;
   - - -

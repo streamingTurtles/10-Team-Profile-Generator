@@ -243,7 +243,8 @@ function init(){
             })
         } 
             else { (answer.managerStart === false) 
-                console.log("not interested", answer.managerStart)
+                // console.log("not interested", answer.managerStart) 
+                console.log("Thank you. You can always build out your team at another time :)")
                 return;
             }
         // if ("different team member"){} 
