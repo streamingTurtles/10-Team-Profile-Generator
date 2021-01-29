@@ -59,7 +59,7 @@
   &nbsp;
   - - -
   ## Testing Instructions:
-  - To test the application, run the following command in the terminal >node index.js  -  then a series of questions will prompt you for an input.  More testing instructions to follow that test the actual code that runs the index.js app. 
+  - To run the application, enter the following command in the terminal >node index.js  -  then a series of questions will prompt you for an input.  To execute jest testing for the class files, run >npm run test at the command prompt to see testing of the Employee, Manager, Engineer & Intern class files. All class files register as passing. See screenshots and short video demo of the jest testing.
 
   &nbsp;
   - - -
