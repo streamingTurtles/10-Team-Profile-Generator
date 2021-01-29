@@ -19,17 +19,17 @@
   &nbsp;
   - - -
   ## Screenshot of App running in the terminal:
-  ![Screenshot](./Assests/appDemo-Screen-Shot.png)
+  ![Screenshot](./Assets/appDemo-Screen-Shot.png)
 
   &nbsp;
   - - -
   ## Screenshot of Jest Class Testing:
-  ![Screenshot](./Assests/Jest-test-Screen-Shot-1.png)
+  ![Screenshot](./Assets/Jest-test-Screen-Shot-1.png)
 
   &nbsp;
   - - -
   ## Screenshot of Jest Class Testing:
-  ![Screenshot](./Assests/Jest-test-Screen-Shot-1.png)
+  ![Screenshot](./Assets/Jest-test-Screen-Shot-1.png)
 
 
 
