@@ -13,7 +13,7 @@
   - [Github Information](#github-information)
   - [my-email-for-questions-and-information](#my-email-for-questions-and-information)
   - [Video Demo of this App running](https://drive.google.com/file/d/1SH0pPhN4_EQtXqROm5jkCi3u9nQb4zDF/view)
-  - [Video Demo of Jest Class Tests]()
+  - [Video Demo of Jest Class Tests](https://drive.google.com/file/d/1SDcIpdKO2kFS4XUlrT0SQyPcJtQLMzT_/view)
 
 
   &nbsp;
